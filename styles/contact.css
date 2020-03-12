@@ -452,12 +452,11 @@ h4 {
 
   .header p {
     font-size: 4rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 5rem;
     padding-top: 25%;
     margin-left: 8%;
     margin-right: 4%;
-    letter-spacing: 0.05em;
   }
 
   h3 {
