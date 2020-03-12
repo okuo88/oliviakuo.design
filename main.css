@@ -550,6 +550,10 @@ h4 {
 
 /* iPhone X */
 @media screen and (min-width: 322px) and (max-width: 413px) {
+  .logo {
+    top: 3.5%;
+  }
+
   .logo_img {
     width: 95px;
     height: 52px;
@@ -573,8 +577,8 @@ h4 {
   }
 
   .HELLO p {
-    font-size: 10vw;
-    margin-top: 24%;
+    font-size: 11.5vw;
+    margin-top: 22%;
   }
 
   .hero {
@@ -585,11 +589,11 @@ h4 {
 
   .content {
     font-size: 36px;
-    margin-right: 15%;
+    margin-right: 10%;
   }
 
   .intro__link {
-    font-size: 0.7em;
+    font-size: 0.65em;
     bottom: 24px;
   }
 
