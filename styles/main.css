@@ -317,19 +317,6 @@ p span:nth-child(12) {
   -webkit-animation-delay: 0.77s;
 }
 
-/* ANIMATION */
-@-webkit-keyframes wave {
-  0% {
-    top: 10px;
-  }
-  50% {
-    top: -10px;
-  }
-  100% {
-    top: 10px;
-  }
-}
-
 /* intro */
 .content {
   padding-left: 8%;
@@ -488,7 +475,7 @@ h4 {
   .overlay nav {
     height: 60%;
     top: 44%;
-    font-size: 58px;
+    font-size: 50px;
     font-weight: 600;
     display: block;
   }
@@ -546,6 +533,13 @@ h4 {
     font-size: 26px;
     margin-top: 60px;
   }
+  .footer li {
+    font-size: 12px;
+    padding: 15px;
+  }
+  .footer p {
+    font-size: 13px;
+  }
 }
 
 /* iPhone X */
@@ -571,7 +565,7 @@ h4 {
   .overlay nav {
     height: 60%;
     top: 44%;
-    font-size: 58px;
+    font-size: 55px;
     font-weight: 600;
     display: block;
   }
@@ -657,12 +651,11 @@ h4 {
 
   .footer p {
     font-size: 14px;
-    padding-bottom: 18px;
   }
 }
 
 /* iPhone 6/7/8/plus */
-@media screen and (min-width: 414px) and (max-width: 768px) {
+@media screen and (min-width: 414px) and (max-width: 767px) {
   .menu {
     display: none;
   }
@@ -728,10 +721,13 @@ h4 {
     font-size: 26px;
     margin-top: 60px;
   }
+  .footer p {
+    font-size: 14px;
+  }
 }
 
 /* desktop */
-@media screen and (min-width: 768px) and (max-width: 900px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .menu {
     display: none;
   }
@@ -790,10 +786,13 @@ h4 {
   h3 {
     font-size: 26px;
   }
+  .footer p {
+    font-size: 15px;
+  }
 }
 
 /* larger desktop */
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1024px) {
   .button_container {
     display: none;
   }
@@ -819,5 +818,8 @@ h4 {
 
   h4 {
     font-size: 35px;
+  }
+  .footer p {
+    font-size: 15px;
   }
 }
