@@ -243,6 +243,7 @@ body {
   font-family: "roboto", monospace;
   padding-top: 12%;
   margin-left: 8%;
+  margin-bottom: -100px;
 }
 
 .header a {
@@ -341,6 +342,17 @@ body {
   font-family: "San Francisco Display", sans-serif;
 }
 
+.world-container {
+  width: 100vw;
+  text-align: center;
+}
+
+.worlds {
+  width: 90vw;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 /* footer */
 .footer {
   background-color: black;
@@ -385,6 +397,53 @@ h4 {
   color: white;
 }
 
+/*SCROLLERCOASTER*/
+.scroll {
+  height: 4vh;
+  overflow-x: auto;
+  overflow-y: hidden;
+  position: fixed;
+  bottom: 3vh;
+  width: auto;
+  z-index: 6;
+  background-color: #ffacc7;
+}
+
+.scroll h3 {
+  font-size: 2.4vh;
+  color: #ff3000;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  display: inline-block;
+  width: auto;
+  height: 5vh;
+  margin: 0;
+  padding-top: 0.4vh;
+
+  /* Apply animation to this element */
+  -moz-animation: scroller 40s linear infinite;
+  -webkit-animation: scroller 40s linear infinite;
+  animation: scroller 40s linear infinite;
+}
+
+.heart {
+  height: 40%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+/* Move it (define the animation) */
+
+@-webkit-keyframes scroller {
+  0% {
+    -webkit-transform: translateX(13%);
+  }
+  100% {
+    -webkit-transform: translateX(-100%);
+  }
+}
+
 /* iPhone 5/SE */
 @media screen and (min-width: 320px) and (max-width: 321px) {
   .menu {
@@ -407,6 +466,7 @@ h4 {
     margin-left: 8%;
     margin-right: 4%;
     letter-spacing: 0.03em;
+    margin-bottom: -20px;
   }
 
   h3 {
@@ -458,6 +518,7 @@ h4 {
     margin-left: 8%;
     margin-right: 4%;
     letter-spacing: 0.03em;
+    margin-bottom: -20px;
   }
 
   h3 {
@@ -492,6 +553,7 @@ h4 {
     margin-left: 8%;
     margin-right: 4%;
     letter-spacing: 0.03em;
+    margin-bottom: -20px;
   }
 
   h3 {
@@ -517,6 +579,7 @@ h4 {
     padding-top: 15%;
     margin-left: 8%;
     margin-right: 8%;
+    margin-bottom: -40px;
   }
 
   h3 {
