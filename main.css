@@ -630,6 +630,20 @@ h4 {
     text-align: center;
   }
 
+  .button {
+    background-color: #098bff;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    min-width: 200px;
+  }
+
   .VIEW-btn {
     display: block;
     text-align: center;
@@ -637,7 +651,7 @@ h4 {
   }
 
   h3 {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 60px;
   }
 
