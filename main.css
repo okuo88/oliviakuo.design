@@ -619,13 +619,13 @@ h4 {
   }
 
   .project h1 {
-    font-size: 1.8em;
+    font-size: 2em;
     padding-left: 10px;
     text-align: center;
   }
 
   .project h2 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     padding: 10px;
     text-align: center;
   }
@@ -711,7 +711,7 @@ h4 {
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 22px;
     margin-top: 60px;
   }
 }
