@@ -401,12 +401,12 @@ h4 {
 
   .header p {
     font-size: 3.8rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 4.5rem;
     padding-top: 25%;
     margin-left: 8%;
     margin-right: 4%;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
   }
 
   h3 {
@@ -457,6 +457,7 @@ h4 {
     padding-top: 25%;
     margin-left: 8%;
     margin-right: 4%;
+    letter-spacing: 0.03em;
   }
 
   h3 {
@@ -485,12 +486,12 @@ h4 {
 
   .header p {
     font-size: 4.5rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 5.5rem;
     padding-top: 22%;
     margin-left: 8%;
     margin-right: 4%;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.03em;
   }
 
   h3 {
@@ -511,7 +512,7 @@ h4 {
   .header p {
     max-width: 800px;
     font-size: 5.5rem;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 7rem;
     padding-top: 15%;
     margin-left: 8%;
