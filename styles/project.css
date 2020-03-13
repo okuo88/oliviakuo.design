@@ -395,7 +395,7 @@ h7 {
 /* images */
 .cubecloud {
   margin-top: 150px;
-  max-width: 974px;
+  width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -415,7 +415,7 @@ h7 {
 .competitive {
   margin: 0 auto;
   display: block;
-  width: 800px;
+  width: 100%;
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -461,7 +461,7 @@ h7 {
 }
 
 .logosketch {
-  width: 600px;
+  width: 70%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -470,7 +470,7 @@ h7 {
 }
 
 .styles {
-  width: 450px;
+  width: 45%;
   display: inline-block;
   margin-left: 30px;
   padding-top: 25px;
@@ -484,7 +484,7 @@ h7 {
 }
 
 .preference {
-  max-width: 750px;
+  max-width: 75%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -492,14 +492,14 @@ h7 {
   padding-bottom: 70px;
 }
 .win {
-  width: 95%;
+  width: 80%;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
 .folding {
-  max-width: 800px;
+  max-width: 90%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -559,8 +559,12 @@ h7 {
 }
 /* iPhone 5/SE */
 @media screen and (min-width: 320px) and (max-width: 321px) {
+  .container {
+    margin: 0 auto;
+  }
+
   .content {
-    width: 270px;
+    width: 275px;
   }
 
   .menu {
@@ -575,9 +579,199 @@ h7 {
     display: block;
   }
 
+  .cubecloud {
+    width: 100%;
+    margin-top: 120px;
+  }
+
+  .competitive {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .competitive_01 {
+    max-width: 50px;
+    margin-right: 20px;
+  }
+  .competitive_02 {
+    max-width: 50px;
+    margin-right: 20px;
+  }
+  .competitive_03 {
+    max-width: 75px;
+  }
+
+  .styles {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .row {
+    display: block;
+  }
+  .column {
+    flex: 33.33%;
+    margin-bottom: 20px;
+  }
+
+  .row .column img {
+    width: 98%;
+  }
+
+  .icons {
+    max-width: 55px;
+    max-height: 60px;
+    margin-top: 50px;
+  }
+
+  .ioverview {
+    width: 75px;
+    margin-top: 50px;
+  }
+
+  .iproblem {
+    height: 60px;
+    margin-top: 50px;
+  }
+
+  .ivisual {
+    height: 33px;
+    margin-top: 50px;
+  }
+
+  .ibrain {
+    width: 68px;
+    margin-top: 50px;
+  }
+
+  .idiscovery {
+    width: 54px;
+    margin-top: 50px;
+  }
+
+  .ipersona {
+    width: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .iprototype {
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .iskin {
+    width: 50px;
+    margin-top: 50px;
+  }
+
+  .iresults {
+    width: 66px;
+    margin-top: 70px;
+  }
+
+  .ifinal {
+    width: 55px;
+    margin-top: 50px;
+  }
+
+  .flow {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .logosketch {
+    width: 90%;
+  }
+
+  .styles {
+    width: 90%;
+    margin-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
+  .wireframes {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .preference {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+
+  .win {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .invision {
+    padding: 12px 32px;
+    font-size: 12px;
+    min-width: 160px;
+    margin-left: 9%;
+    margin-top: 0px;
+  }
+
+  .folding {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-bottom: 18px;
+  }
+
+  .prototype {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .container h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  h3 {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 38px;
+  }
+
   h5 {
     font-size: 24px;
     margin-top: 65px;
+  }
+
+  h6 {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .Back p {
+    font-size: 17px;
+    padding-top: 0px;
   }
 
   .footer h1 {
@@ -628,9 +822,199 @@ h7 {
     display: block;
   }
 
+  .cubecloud {
+    width: 100%;
+    margin-top: 120px;
+  }
+
+  .competitive {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .competitive_01 {
+    max-width: 50px;
+    margin-right: 20px;
+  }
+  .competitive_02 {
+    max-width: 50px;
+    margin-right: 20px;
+  }
+  .competitive_03 {
+    max-width: 75px;
+  }
+
+  .styles {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .row {
+    display: block;
+  }
+  .column {
+    flex: 33.33%;
+    margin-bottom: 20px;
+  }
+
+  .row .column img {
+    width: 98%;
+  }
+
+  .icons {
+    max-width: 55px;
+    max-height: 60px;
+    margin-top: 50px;
+  }
+
+  .ioverview {
+    width: 75px;
+    margin-top: 50px;
+  }
+
+  .iproblem {
+    height: 60px;
+    margin-top: 50px;
+  }
+
+  .ivisual {
+    height: 33px;
+    margin-top: 50px;
+  }
+
+  .ibrain {
+    width: 68px;
+    margin-top: 50px;
+  }
+
+  .idiscovery {
+    width: 54px;
+    margin-top: 50px;
+  }
+
+  .ipersona {
+    width: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .iprototype {
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .iskin {
+    width: 50px;
+    margin-top: 50px;
+  }
+
+  .iresults {
+    width: 66px;
+    margin-top: 70px;
+  }
+
+  .ifinal {
+    width: 55px;
+    margin-top: 50px;
+  }
+
+  .flow {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .logosketch {
+    width: 90%;
+  }
+
+  .styles {
+    width: 90%;
+    margin-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
+  .wireframes {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .preference {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+
+  .win {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .invision {
+    padding: 12px 32px;
+    font-size: 12px;
+    min-width: 160px;
+    margin-left: 9%;
+    margin-top: 0px;
+  }
+
+  .folding {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-bottom: 18px;
+  }
+
+  .prototype {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .container h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  h3 {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 38px;
+  }
+
   h5 {
-    font-size: 26px;
+    font-size: 24px;
     margin-top: 65px;
+  }
+
+  h6 {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .Back p {
+    font-size: 17px;
+    padding-top: 0px;
   }
 
   .footer h1 {
@@ -670,9 +1054,199 @@ h7 {
     display: block;
   }
 
-  h5 {
+  .cubecloud {
+    width: 100%;
+    margin-top: 120px;
+  }
+
+  .competitive {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .competitive_01 {
+    max-width: 50px;
+    margin-right: 20px;
+  }
+  .competitive_02 {
+    max-width: 50px;
+    margin-right: 20px;
+  }
+  .competitive_03 {
+    max-width: 75px;
+  }
+
+  .styles {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .row {
+    display: block;
+  }
+  .column {
+    flex: 33.33%;
+    margin-bottom: 20px;
+  }
+
+  .row .column img {
+    width: 98%;
+  }
+
+  .icons {
+    max-width: 55px;
+    max-height: 60px;
+    margin-top: 50px;
+  }
+
+  .ioverview {
+    width: 75px;
+    margin-top: 50px;
+  }
+
+  .iproblem {
+    height: 60px;
+    margin-top: 50px;
+  }
+
+  .ivisual {
+    height: 33px;
+    margin-top: 50px;
+  }
+
+  .ibrain {
+    width: 68px;
+    margin-top: 50px;
+  }
+
+  .idiscovery {
+    width: 54px;
+    margin-top: 50px;
+  }
+
+  .ipersona {
+    width: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .iprototype {
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .iskin {
+    width: 50px;
+    margin-top: 50px;
+  }
+
+  .iresults {
+    width: 66px;
+    margin-top: 70px;
+  }
+
+  .ifinal {
+    width: 55px;
+    margin-top: 50px;
+  }
+
+  .flow {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .logosketch {
+    width: 90%;
+  }
+
+  .styles {
+    width: 90%;
+    margin-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
+  .wireframes {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .preference {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+
+  .win {
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .invision {
+    padding: 12px 32px;
+    font-size: 12px;
+    min-width: 160px;
+    margin-left: 9%;
+    margin-top: 0px;
+  }
+
+  .folding {
+    max-width: 100%;
+    padding-top: 0px;
+    padding-bottom: 18px;
+  }
+
+  .prototype {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .container h1 {
     font-size: 28px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  h3 {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 38px;
+  }
+
+  h5 {
+    font-size: 24px;
     margin-top: 65px;
+  }
+
+  h6 {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .Back p {
+    font-size: 17px;
+    padding-top: 0px;
   }
 
   .footer h1 {
@@ -703,9 +1277,196 @@ h7 {
     display: none;
   }
 
-  h5 {
-    font-size: 30px;
+  .cubecloud {
+    width: 100%;
   }
+
+  .competitive {
+    width: 100%;
+  }
+
+  .competitive_01 {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+
+  .competitive_02 {
+    max-width: 100px;
+    margin-right: 20px;
+  }
+
+  .competitive_03 {
+    max-width: 120px;
+  }
+  .styles {
+    width: 100%;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+
+  .column {
+    flex: 33.33%;
+    margin-bottom: 20px;
+  }
+
+  .row .column img {
+    width: 98%;
+  }
+
+  .icons {
+    max-width: 55px;
+    max-height: 60px;
+    margin-top: 50px;
+  }
+
+  .ioverview {
+    width: 75px;
+    margin-top: 50px;
+  }
+
+  .iproblem {
+    height: 60px;
+    margin-top: 50px;
+  }
+
+  .ivisual {
+    height: 33px;
+    margin-top: 50px;
+  }
+
+  .ibrain {
+    width: 68px;
+    margin-top: 50px;
+  }
+
+  .idiscovery {
+    width: 54px;
+    margin-top: 50px;
+  }
+
+  .ipersona {
+    width: 50px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .iprototype {
+    width: 70px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+  }
+
+  .iskin {
+    width: 50px;
+    margin-top: 50px;
+  }
+
+  .iresults {
+    width: 66px;
+    margin-top: 70px;
+  }
+
+  .ifinal {
+    width: 55px;
+    margin-top: 50px;
+  }
+
+  .flow {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .logosketch {
+    width: 70%;
+  }
+
+  .styles {
+    width: 45%;
+    display: inline-block;
+    margin-left: 25px;
+    padding-top: 20px;
+    padding-bottom: 35px;
+  }
+
+  .wireframes {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .preference {
+    max-width: 90%;
+    padding-top: 0px;
+    padding-bottom: 25px;
+  }
+
+  .win {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .invision {
+    padding: 12px 32px;
+    font-size: 12px;
+    min-width: 160px;
+    margin-left: 32%;
+    margin-top: 0px;
+  }
+
+  .folding {
+    max-width: 85%;
+    padding-top: 0px;
+    padding-bottom: 18px;
+  }
+
+  /* .prototype {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .container h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  h3 {
+    font-size: 21px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 38px;
+  }
+
+  h5 {
+    font-size: 24px;
+    margin-top: 65px;
+  }
+
+  h6 {
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  .Back p {
+    font-size: 17px;
+    padding-top: 0px;
+  } */
 
   .footer h1 {
     font-size: 32px;
