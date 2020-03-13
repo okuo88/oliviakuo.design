@@ -317,16 +317,26 @@ p span:nth-child(12) {
   -webkit-animation-delay: 0.77s;
 }
 
-/* intro */
-.content {
-  padding-left: 8%;
+/* ANIMATION */
+@-webkit-keyframes wave {
+  0% {
+    top: 10px;
+  }
+  50% {
+    top: -10px;
+  }
+  100% {
+    top: 10px;
+  }
 }
 
+/* intro */
 .content {
   font-size: 60px;
   letter-spacing: -0.02em;
   line-height: 1.2;
   text-align: inherit;
+  padding-left: 8%;
 }
 
 .intro__link {
@@ -386,7 +396,7 @@ p {
 }
 
 .project h1 {
-  font-size: 2.4em;
+  font-size: 2.1em;
   color: black;
   line-height: 1.2;
   padding-left: 10px;
@@ -480,7 +490,7 @@ h4 {
     display: block;
   }
 
-  .HELLO p {
+  .HELLO h5 {
     font-size: 12vw;
     margin-top: 24%;
   }
@@ -581,7 +591,7 @@ h4 {
     display: block;
   }
 
-  .HELLO p {
+  .HELLO h5 {
     font-size: 11.5vw;
     margin-top: 22%;
   }
@@ -693,7 +703,7 @@ h4 {
     display: block;
   }
 
-  .HELLO p {
+  .HELLO h5 {
     font-size: 13vw;
     margin-top: 24%;
   }
@@ -770,7 +780,7 @@ h4 {
     display: none;
   }
 
-  .HELLO p {
+  .HELLO h5 {
     font-size: 7vw;
     margin-top: 15%;
   }
@@ -864,7 +874,7 @@ h4 {
     font-size: 20px;
   }
 
-  .HELLO p {
+  .HELLO h5 {
     margin-top: 11%;
   }
 
