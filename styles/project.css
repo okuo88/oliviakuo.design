@@ -1273,7 +1273,7 @@ h7 {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     width: 100%;
-    max-width: 650px;
+    max-width: 720px;
   }
 
   .menu {
@@ -1493,7 +1493,7 @@ h7 {
 @media screen and (min-width: 1024px) {
   .container {
     width: 100%;
-    max-width: 974px;
+    max-width: 820px;
   }
 
   .button_container {

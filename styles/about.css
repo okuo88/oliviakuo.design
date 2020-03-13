@@ -508,7 +508,7 @@ h4 {
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .container {
     width: 100%;
-    max-width: 650px;
+    max-width: 720px;
   }
 
   .menu {
@@ -541,7 +541,7 @@ h4 {
 @media screen and (min-width: 1024px) {
   .container {
     width: 100%;
-    max-width: 974px;
+    max-width: 820px;
   }
 
   .button_container {
@@ -562,6 +562,14 @@ h4 {
   .menu a {
     font-size: 20px;
     color: black;
+  }
+
+  .container h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 22px;
   }
 
   h4 {
