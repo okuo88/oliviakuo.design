@@ -783,7 +783,7 @@ h4 {
 
   .content {
     font-size: 55px;
-    padding: 15% 8% 0% 8%;
+    padding: 10% 8% 0% 8%;
   }
 
   .img-01 {
@@ -851,7 +851,7 @@ h4 {
 }
 
 /* larger desktop */
-/* @media screen and (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .button_container {
     display: none;
   }
@@ -891,4 +891,4 @@ h4 {
   .copyright {
     font-size: 15px;
   }
-} */
+}
