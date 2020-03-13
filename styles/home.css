@@ -702,7 +702,7 @@ h4 {
   }
 
   .HELLO p {
-    font-size: 13vw;
+    font-size: 12vw;
   }
 
   .content {
@@ -772,18 +772,18 @@ h4 {
 }
 
 /* desktop */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .menu {
     display: none;
   }
 
   .HELLO p {
-    font-size: 7vw;
+    font-size: 10vw;
   }
 
   .content {
-    font-size: 55px;
-    padding: 10% 8% 0% 8%;
+    font-size: 48px;
+    padding: 4% 8% 0% 8%;
   }
 
   .img-01 {
@@ -869,6 +869,11 @@ h4 {
 
   .menu a {
     font-size: 20px;
+  }
+
+  .content {
+    font-size: 54px;
+    padding: 0% 8% 0% 8%;
   }
 
   h3 {
