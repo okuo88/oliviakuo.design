@@ -61,6 +61,10 @@ a:hover {
   color: #15ff49;
 }
 
+.button:hover {
+  color: white;
+}
+
 /* Burger Nav */
 .button_container {
   position: fixed;
