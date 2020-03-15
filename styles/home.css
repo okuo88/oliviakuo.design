@@ -590,7 +590,7 @@ h4 {
     display: block;
   }
 
-  .HELLO p {
+  .HELLO span {
     font-size: 11.5vw;
   }
 
@@ -602,12 +602,17 @@ h4 {
 
   .content {
     font-size: 34px;
-    padding: 14% 8% 0% 8%;
+    padding: 15% 8% 0% 8%;
+  }
+
+  .content p {
+    font-size: 34px;
+    padding-top: 1%;
   }
 
   .intro__link {
     font-size: 0.65em;
-    bottom: 24px;
+    bottom: 26px;
   }
 
   .project {
