@@ -340,9 +340,9 @@ p span:nth-child(12) {
 }
 
 .intro__link {
-  font-size: 0.5em;
+  font-size: 0.55em;
   position: absolute;
-  bottom: 12px;
+  bottom: 6%;
   left: 50%;
 }
 
@@ -490,13 +490,22 @@ h4 {
     display: block;
   }
 
-  .HELLO p {
+  .HELLO span {
     font-size: 12vw;
   }
 
   .content {
-    font-size: 30px;
     padding: 18% 8% 0% 8%;
+  }
+
+  .content p {
+    font-size: 30px;
+    padding-top: 1%;
+  }
+
+  .intro__link {
+    font-size: 0.4em;
+    bottom: 5%;
   }
 
   .project {
@@ -521,7 +530,7 @@ h4 {
   }
 
   .project h1 {
-    font-size: 1.8em;
+    font-size: 1.7em;
     padding-left: 10px;
     text-align: center;
   }
@@ -529,6 +538,8 @@ h4 {
   .project h2 {
     font-size: 1.1em;
     padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
   }
 
@@ -539,13 +550,14 @@ h4 {
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 24px;
     margin-top: 65px;
     padding-bottom: 40px;
   }
 
   h4 {
     font-size: 28px;
+    padding-top: 10px;
   }
 
   .footer p {
@@ -553,8 +565,8 @@ h4 {
   }
 
   .footer li {
-    font-size: 14px;
-    padding: 15px;
+    font-size: 13px;
+    padding: 12px;
   }
 
   .copyright {
@@ -601,7 +613,6 @@ h4 {
   }
 
   .content {
-    font-size: 34px;
     padding: 15% 8% 0% 8%;
   }
 
@@ -611,7 +622,7 @@ h4 {
   }
 
   .intro__link {
-    font-size: 0.7em;
+    font-size: 0.5em;
     bottom: 6%;
   }
 
@@ -693,8 +704,6 @@ h4 {
 
   .copyright {
     font-size: 12px;
-    padding-left: 20px;
-    padding-right: 20px;
   }
 }
 
@@ -712,13 +721,17 @@ h4 {
     display: block;
   }
 
-  .HELLO p {
-    font-size: 12vw;
+  .HELLO span {
+    font-size: 12.5vw;
   }
 
   .content {
-    font-size: 38px;
     padding: 15% 8% 0% 8%;
+  }
+
+  .content p {
+    font-size: 38px;
+    padding-top: 1%;
   }
 
   .project {
@@ -745,27 +758,32 @@ h4 {
   .project h1 {
     font-size: 1.8em;
     padding-left: 10px;
+    padding-top: 20px;
     text-align: center;
   }
 
   .project h2 {
-    font-size: 1.1em;
+    font-size: 1.2em;
     padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     text-align: center;
   }
 
   .VIEW-btn {
     display: block;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
 
   h3 {
     font-size: 28px;
+    margin-top: 80px;
   }
 
   h4 {
     font-size: 30px;
+    padding-top: 10px;
   }
 
   .footer p {
@@ -774,11 +792,11 @@ h4 {
 
   .footer li {
     font-size: 15px;
-    padding: 18px;
+    padding: 14px;
   }
 
   .copyright {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
