@@ -225,6 +225,22 @@ body {
   display: inline-block;
   font-size: 16px;
   border-radius: 5px;
+  text-align: center;
+  min-width: 220px;
+  margin-left: 32%;
+  margin-top: 30px;
+}
+
+.invisionbus {
+  background-color: #098bff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  text-align: center;
   min-width: 220px;
   margin-left: 35%;
   margin-top: 30px;
@@ -409,14 +425,14 @@ h7 {
 }
 
 .google {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 25px;
+  padding-bottom: 30px;
   width: 100%;
 }
 
 .moovit {
   padding-top: 50px;
-  padding-bottom: 35px;
+  padding-bottom: 40px;
   width: 70%;
   display: block;
   margin-left: auto;
@@ -526,7 +542,7 @@ h7 {
 .color {
   width: 100%;
   padding-top: 25px;
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .styles {
@@ -557,10 +573,17 @@ h7 {
   padding-bottom: 30px;
 }
 
-.busmap {
+.buswireframe {
   width: 100%;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+.busprototype {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  display: block;
 }
 
 .preference {
@@ -800,7 +823,7 @@ h7 {
     padding: 12px 32px;
     font-size: 12px;
     min-width: 160px;
-    margin-left: 9%;
+    margin-left: 8%;
     margin-top: 0px;
   }
 
@@ -808,6 +831,54 @@ h7 {
     max-width: 100%;
     padding-top: 0px;
     padding-bottom: 18px;
+  }
+
+  .satisfaction {
+    padding-top: 50px;
+  }
+
+  .trip {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .google {
+    padding: 0;
+  }
+
+  .moovit {
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .persona1 {
+    padding-left: 30px;
+  }
+
+  .persona2 {
+    padding-left: 30px;
+  }
+
+  .persona3 {
+    padding-left: 30px;
+  }
+
+  .sketchone {
+    margin: 0;
+    width: 100%;
+  }
+
+  .sketchtwo {
+    margin: 0;
+    width: 100%;
+  }
+
+  .invisionbus {
+    padding: 12px 32px;
+    font-size: 12px;
+    min-width: 160px;
+    margin-left: 18%;
+    margin-top: 0px;
   }
 
   .prototype {
@@ -910,6 +981,11 @@ h7 {
     margin-top: 120px;
   }
 
+  .busybus {
+    width: 100%;
+    margin-top: 120px;
+  }
+
   .competitive {
     width: 100%;
     margin-left: 0px;
@@ -941,6 +1017,7 @@ h7 {
   .column {
     flex: 33.33%;
     margin-bottom: 20px;
+    margin-top: 0;
   }
 
   .row .column img {
@@ -1045,7 +1122,7 @@ h7 {
     padding: 12px 32px;
     font-size: 12px;
     min-width: 160px;
-    margin-left: 9%;
+    margin-left: 11%;
     margin-top: 0px;
   }
 
@@ -1055,8 +1132,56 @@ h7 {
     padding-bottom: 18px;
   }
 
+  .satisfaction {
+    padding-top: 50px;
+  }
+
+  .trip {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .google {
+    padding: 0;
+  }
+
+  .moovit {
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .persona1 {
+    padding-left: 50px;
+  }
+
+  .persona2 {
+    padding-left: 50px;
+  }
+
+  .persona3 {
+    padding-left: 50px;
+  }
+
   .prototype {
     font-size: 18px;
+  }
+
+  .sketchone {
+    margin: 0;
+    width: 100%;
+  }
+
+  .sketchtwo {
+    margin: 0;
+    width: 100%;
+  }
+
+  .invisionbus {
+    padding: 12px 32px;
+    font-size: 12px;
+    min-width: 160px;
+    margin-left: 21%;
+    margin-top: 0px;
   }
 
   p {
@@ -1094,6 +1219,10 @@ h7 {
     font-size: 24px;
     margin-top: 60px;
     padding-bottom: 40px;
+  }
+
+  h7 {
+    font-size: 30px;
   }
 
   .footer h1 {
@@ -1140,6 +1269,11 @@ h7 {
     margin-top: 120px;
   }
 
+  .busybus {
+    width: 100%;
+    margin-top: 120px;
+  }
+
   .competitive {
     width: 100%;
     margin-left: 0px;
@@ -1174,7 +1308,17 @@ h7 {
   }
 
   .row .column img {
-    width: 98%;
+    width: 90%;
+  }
+
+  .sketchone {
+    margin: 0;
+    width: 100%;
+  }
+
+  .sketchtwo {
+    margin: 0;
+    width: 100%;
   }
 
   .icons {
@@ -1271,11 +1415,49 @@ h7 {
     margin-right: auto;
   }
 
+  .satisfaction {
+    padding-top: 50px;
+  }
+
+  .trip {
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  .google {
+    padding: 0;
+  }
+
+  .moovit {
+    padding: 0;
+    padding-top: 20px;
+  }
+
+  .persona1 {
+    padding-left: 50px;
+  }
+
+  .persona2 {
+    padding-left: 50px;
+  }
+
+  .persona3 {
+    padding-left: 50px;
+  }
+
   .invision {
     padding: 12px 32px;
     font-size: 12px;
     min-width: 160px;
-    margin-left: 9%;
+    margin-left: 15%;
+    margin-top: 0px;
+  }
+
+  .invisionbus {
+    padding: 12px 32px;
+    font-size: 12px;
+    min-width: 160px;
+    margin-left: 25%;
     margin-top: 0px;
   }
 
@@ -1323,6 +1505,10 @@ h7 {
   h5 {
     font-size: 28px;
     margin-top: 80px;
+  }
+
+  h7 {
+    font-size: 30px;
   }
 
   .footer h1 {
@@ -1498,6 +1684,20 @@ h7 {
     max-width: 85%;
     padding-top: 0px;
     padding-bottom: 18px;
+  }
+
+  .sketchone {
+    width: 90%;
+    margin-left: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .sketchtwo {
+    width: 90%;
+    margin-right: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   h5 {
