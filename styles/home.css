@@ -490,13 +490,17 @@ h4 {
     display: block;
   }
 
-  .HELLO p {
+  .HELLO span {
     font-size: 12vw;
   }
 
   .content {
-    font-size: 32px;
-    padding: 12% 8% 0% 8%;
+    padding: 14% 8% 0% 8%;
+  }
+
+  .content p {
+    font-size: 30px;
+    padding-top: 1%;
   }
 
   .project {
@@ -590,8 +594,8 @@ h4 {
     display: block;
   }
 
-  .HELLO p {
-    font-size: 11.5vw;
+  .HELLO span {
+    font-size: 12vw;
   }
 
   .hero {
@@ -601,8 +605,12 @@ h4 {
   }
 
   .content {
-    font-size: 38px;
-    padding: 12% 8% 0% 8%;
+    padding: 10% 8% 0% 8%;
+  }
+
+  .content p {
+    font-size: 36px;
+    padding-top: 1%;
   }
 
   .intro__link {
@@ -701,13 +709,17 @@ h4 {
     display: block;
   }
 
-  .HELLO p {
+  .HELLO span {
     font-size: 12vw;
   }
 
   .content {
-    font-size: 38px;
     padding: 12% 8% 0% 8%;
+  }
+
+  .content p {
+    font-size: 39px;
+    padding-top: 1%;
   }
 
   .project {
