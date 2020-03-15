@@ -1700,6 +1700,18 @@ h7 {
     padding-bottom: 0px;
   }
 
+  .wireframes {
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 30px;
+  }
+
+  .buswireframe {
+    width: 100%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
   h5 {
     font-size: 30px;
   }
