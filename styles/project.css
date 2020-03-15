@@ -294,12 +294,6 @@ h7 {
   font-family: Arial;
 }
 
-.Back p {
-  font-size: 21px;
-  text-align: center;
-  padding-top: 20px;
-}
-
 /* icons */
 .icons {
   max-width: 90px;
@@ -401,13 +395,62 @@ h7 {
   margin-right: auto;
 }
 
+.busybus {
+  margin-top: 150px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .interaction {
   padding-top: 20px;
   width: 100%;
 }
 
+.google {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.moovit {
+  padding-top: 50px;
+  padding-bottom: 35px;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .research {
   padding-top: 10px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.maze {
+  padding-top: 10px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+.text {
+  padding-top: 10px;
+  padding-bottom: 0px;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.satisfaction {
+  padding-top: 100px;
+  padding-bottom: 0px;
+  width: 100%;
+}
+
+.trip {
+  padding-top: 40px;
   padding-bottom: 50px;
   width: 100%;
 }
@@ -441,8 +484,19 @@ h7 {
 
 .column {
   flex: 33.33%;
-  padding-top: 20px;
-  margin-bottom: -70px;
+  padding-top: 50px;
+  margin-bottom: 0px;
+  padding-right: 20px;
+}
+
+.persona1 {
+  width: 250px;
+}
+.persona2 {
+  width: 250px;
+}
+.persona3 {
+  width: 250px;
 }
 
 .flow {
@@ -469,6 +523,12 @@ h7 {
   padding-bottom: 30px;
 }
 
+.color {
+  width: 100%;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
 .styles {
   width: 45%;
   display: inline-block;
@@ -477,10 +537,30 @@ h7 {
   padding-bottom: 40px;
 }
 
+.sketchone {
+  width: 90%;
+  margin-left: 160px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.sketchtwo {
+  width: 90%;
+  margin-left: -50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .wireframes {
   width: 100%;
   padding-top: 25px;
   padding-bottom: 30px;
+}
+
+.busmap {
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 .preference {
@@ -776,11 +856,11 @@ h7 {
     padding-top: 10px;
   }
 
-  .footer p {
+  .footer h2 {
     font-size: 15px;
   }
 
-  .footer li {
+  .socials {
     font-size: 13px;
     padding: 12px;
   }
@@ -1021,11 +1101,11 @@ h7 {
     padding-top: 10px;
   }
 
-  .footer p {
+  .footer h2 {
     font-size: 15px;
   }
 
-  .footer li {
+  .socials {
     font-size: 14px;
     padding: 12px;
   }
@@ -1250,11 +1330,11 @@ h7 {
     padding-top: 10px;
   }
 
-  .footer p {
+  .footer h2 {
     font-size: 16px;
   }
 
-  .footer li {
+  .socials {
     font-size: 15px;
     padding: 14px;
   }
@@ -1420,51 +1500,6 @@ h7 {
     padding-bottom: 18px;
   }
 
-  /* .prototype {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 18px;
-  }
-
-  .container h1 {
-    font-size: 28px;
-    font-weight: 500;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  h2 {
-    font-size: 20px;
-    margin-top: 14px;
-    margin-bottom: 14px;
-  }
-  h3 {
-    font-size: 21px;
-    margin-top: 20px;
-    margin-bottom: 12px;
-  }
-  h4 {
-    font-size: 18px;
-    line-height: 1.5;
-    margin-bottom: 38px;
-  }
-
-  h5 {
-    font-size: 24px;
-    margin-top: 65px;
-  }
-
-  h6 {
-    font-size: 14px;
-    padding-bottom: 20px;
-  }
-
-  .Back p {
-    font-size: 17px;
-    padding-top: 0px;
-  } */
-
   h5 {
     font-size: 30px;
   }
@@ -1473,11 +1508,11 @@ h7 {
     font-size: 32px;
   }
 
-  .footer p {
+  .footer h2 {
     font-size: 17px;
   }
 
-  .footer li {
+  .socials {
     font-size: 16px;
     padding: 18px;
   }
@@ -1522,11 +1557,11 @@ h7 {
     font-size: 32px;
   }
 
-  .footer p {
+  .footer h2 {
     font-size: 17px;
   }
 
-  .footer li {
+  .socials {
     font-size: 16px;
     padding: 18px;
   }

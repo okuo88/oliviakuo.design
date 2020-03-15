@@ -347,18 +347,24 @@ h4 {
   h4 {
     font-size: 24px;
     margin-top: 65px;
+    padding-bottom: 40px;
   }
 
   .footer h1 {
     font-size: 28px;
+    padding-top: 10px;
   }
 
-  .footer li {
-    font-size: 14px;
+  .footer h2 {
+    font-size: 15px;
+  }
+
+  .socials {
+    font-size: 13px;
     padding: 12px;
   }
 
-  .footer p {
+  .copyright {
     font-size: 13px;
   }
 }
@@ -419,25 +425,27 @@ h4 {
   }
 
   h4 {
-    font-size: 26px;
-    margin-top: 65px;
+    font-size: 24px;
+    margin-top: 60px;
+    padding-bottom: 40px;
   }
 
   .footer h1 {
     font-size: 28px;
+    padding-top: 10px;
   }
 
-  .socials {
+  .footer h2 {
     font-size: 15px;
   }
 
-  .footer li {
+  .socials {
     font-size: 14px;
-    padding: 15px;
+    padding: 12px;
   }
 
-  .footer p {
-    font-size: 13px;
+  .copyright {
+    font-size: 12px;
   }
 }
 
@@ -484,24 +492,25 @@ h4 {
 
   h4 {
     font-size: 28px;
-    margin-top: 65px;
+    margin-top: 80px;
   }
 
   .footer h1 {
     font-size: 30px;
+    padding-top: 10px;
   }
 
-  .socials {
+  .footer h2 {
     font-size: 16px;
   }
 
-  .footer li {
+  .socials {
     font-size: 15px;
-    padding: 15px;
+    padding: 14px;
   }
 
-  .footer p {
-    font-size: 14px;
+  .copyright {
+    font-size: 12px;
   }
 }
 /* desktop */
@@ -523,16 +532,16 @@ h4 {
     font-size: 32px;
   }
 
-  .socials {
+  .footer h2 {
     font-size: 17px;
   }
 
-  .footer li {
+  .socials {
     font-size: 16px;
     padding: 18px;
   }
 
-  .footer p {
+  .copyright {
     font-size: 15px;
   }
 }
@@ -580,16 +589,16 @@ h4 {
     font-size: 32px;
   }
 
-  .socials {
+  .footer h2 {
     font-size: 17px;
   }
 
-  .footer li {
+  .socials {
     font-size: 16px;
     padding: 18px;
   }
 
-  .footer p {
+  .copyright {
     font-size: 15px;
   }
 }
