@@ -613,7 +613,7 @@ h4 {
     padding-top: 1%;
   }
 
-  .intro__link {
+  .intro__link a {
     font-size: 0.65em;
     bottom: 24px;
   }
@@ -640,13 +640,13 @@ h4 {
   }
 
   .project h1 {
-    font-size: 1.6em;
+    font-size: 1.7em;
     padding-left: 10px;
     text-align: center;
   }
 
   .project h2 {
-    font-size: 1em;
+    font-size: 1.2em;
     padding: 10px;
     text-align: center;
   }
@@ -672,7 +672,7 @@ h4 {
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 24px;
     margin-top: 65px;
     padding-bottom: 40px;
   }
@@ -686,12 +686,12 @@ h4 {
   }
 
   .footer li {
-    font-size: 14px;
-    padding: 15px;
+    font-size: 12px;
+    padding: 12px;
   }
 
   .copyright {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
 
