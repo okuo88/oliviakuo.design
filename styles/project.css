@@ -790,6 +790,19 @@ h7 {
     max-width: 75px;
   }
 
+  .competitive_a {
+    width: 65px;
+    margin-right: 0px;
+  }
+  .competitive_b {
+    max-width: 50px;
+    margin-right: 0px;
+  }
+  .competitive_c {
+    max-width: 50px;
+    margin-right: 0px;
+  }
+
   .styles {
     width: 100%;
     margin-left: 0px;
@@ -1006,6 +1019,10 @@ h7 {
     padding-bottom: 40px;
   }
 
+  h7 {
+    font-size: 30px;
+  }
+
   .footer h1 {
     font-size: 28px;
     padding-top: 10px;
@@ -1086,6 +1103,19 @@ h7 {
   }
   .competitive_03 {
     max-width: 75px;
+  }
+
+  .competitive_a {
+    width: 65px;
+    margin-right: 0px;
+  }
+  .competitive_b {
+    max-width: 50px;
+    margin-right: 0px;
+  }
+  .competitive_c {
+    max-width: 50px;
+    margin-right: 0px;
   }
 
   .styles {
@@ -1374,6 +1404,19 @@ h7 {
   }
   .competitive_03 {
     max-width: 75px;
+  }
+
+  .competitive_a {
+    width: 75px;
+    margin-right: 5px;
+  }
+  .competitive_b {
+    max-width: 60px;
+    margin-right: 5px;
+  }
+  .competitive_c {
+    max-width: 60px;
+    margin-right: 5px;
   }
 
   .styles {
