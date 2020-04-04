@@ -227,7 +227,7 @@ body {
   border-radius: 5px;
   text-align: center;
   min-width: 220px;
-  margin-left: 32%;
+  margin-left: 36.2%;
   margin-top: 30px;
 }
 
@@ -427,6 +427,14 @@ h7 {
   margin-right: auto;
 }
 
+.WhatsApp {
+  margin-top: 150px;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .interaction {
   padding-top: 20px;
   width: 100%;
@@ -450,6 +458,12 @@ h7 {
 .research {
   padding-top: 10px;
   padding-bottom: 50px;
+  width: 100%;
+}
+
+.usage {
+  padding-top: 10px;
+  padding-bottom: 10px;
   width: 100%;
 }
 
@@ -487,6 +501,11 @@ h7 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.competitive_abc {
+  width: 100%;
+  text-align: left;
+  padding-top: 20px;
+}
 
 .competitive_01 {
   max-width: 140px;
@@ -500,6 +519,25 @@ h7 {
 
 .competitive_03 {
   max-width: 220px;
+}
+
+.competitive_a {
+  max-width: 110px;
+  margin-right: 5px;
+  margin-top: -25px;
+  margin-bottom: -25px;
+}
+
+.competitive_b {
+  max-width: 90px;
+  margin-right: 5px;
+  margin-bottom: -15px;
+}
+
+.competitive_c {
+  max-width: 90px;
+  margin-right: 5px;
+  margin-bottom: -10px;
 }
 
 .row {
@@ -536,6 +574,21 @@ h7 {
   margin-right: auto;
   padding-top: 25px;
   padding-bottom: 35px;
+}
+
+.brand {
+  margin: 0 auto;
+  display: block;
+  width: 100%;
+}
+
+.sketchapp {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 25px;
+  padding-bottom: 5px;
 }
 
 .logosketch {
@@ -628,6 +681,17 @@ h7 {
   margin-right: auto;
   padding-top: 25px;
   padding-bottom: 40px;
+}
+
+.task {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.add {
+  width: 100%;
+  margin-bottom: -30px;
 }
 
 /* footer */
@@ -843,7 +907,7 @@ h7 {
     padding: 12px 32px;
     font-size: 12px;
     min-width: 160px;
-    margin-left: 8%;
+    margin-left: 17.2%;
     margin-top: 0px;
   }
 
@@ -1142,7 +1206,7 @@ h7 {
     padding: 12px 32px;
     font-size: 12px;
     min-width: 160px;
-    margin-left: 11%;
+    margin-left: 20.4%;
     margin-top: 0px;
   }
 
@@ -1469,7 +1533,7 @@ h7 {
     padding: 12px 32px;
     font-size: 12px;
     min-width: 160px;
-    margin-left: 15%;
+    margin-left: 24.4%;
     margin-top: 0px;
   }
 
@@ -1696,7 +1760,7 @@ h7 {
     padding: 12px 32px;
     font-size: 12px;
     min-width: 160px;
-    margin-left: 32%;
+    margin-left: 38%;
     margin-top: 0px;
   }
 
