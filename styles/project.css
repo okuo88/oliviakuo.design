@@ -143,8 +143,8 @@ a:hover {
 }
 .overlay nav {
   position: relative;
-  height: 80%;
-  top: 50%;
+  height: 65%;
+  top: 45%;
   transform: translateY(-50%);
   font-size: 66px;
   font-weight: 600;
@@ -1907,8 +1907,8 @@ h7 {
   }
 
   .overlay nav {
-    height: 80%;
-    top: 50%;
+    height: 65%;
+    top: 45%;
     font-size: 66px;
   }
 
