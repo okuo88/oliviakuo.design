@@ -508,8 +508,9 @@ h4 {
   }
 
   .intro__link {
-    font-size: 0.4em;
-    bottom: 5%;
+    font-size: 0.45em;
+    bottom: 4%;
+    left: 45.8%;
   }
 
   .project {
@@ -739,6 +740,12 @@ h4 {
     padding-top: 1%;
   }
 
+  .intro__link {
+    font-size: 0.5em;
+    bottom: 6%;
+    left: 46.9%;
+  }
+
   .project {
     flex-flow: column;
     margin-top: 30px;
@@ -824,6 +831,12 @@ h4 {
     height: 70%;
     top: 50%;
     font-size: 60px;
+  }
+
+  .intro__link {
+    font-size: 0.6em;
+    bottom: 5%;
+    left: 49%;
   }
 
   .img-01 {
