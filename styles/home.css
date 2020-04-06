@@ -487,9 +487,9 @@ h4 {
   }
 
   .overlay nav {
-    height: 60%;
-    top: 44%;
-    font-size: 50px;
+    height: 55%;
+    top: 35%;
+    font-size: 40px;
     font-weight: 600;
     display: block;
   }
@@ -599,8 +599,8 @@ h4 {
   }
 
   .overlay nav {
-    height: 60%;
-    top: 44%;
+    height: 50%;
+    top: 40%;
     font-size: 55px;
     font-weight: 600;
     display: block;
@@ -719,9 +719,9 @@ h4 {
   }
 
   .overlay nav {
-    height: 60%;
-    top: 44%;
-    font-size: 58px;
+    height: 50%;
+    top: 40%;
+    font-size: 55px;
     font-weight: 600;
     display: block;
   }
@@ -820,6 +820,12 @@ h4 {
     padding: 4% 8% 0% 8%;
   }
 
+  .overlay nav {
+    height: 70%;
+    top: 50%;
+    font-size: 60px;
+  }
+
   .img-01 {
     max-width: 100%;
     padding-top: 20px;
@@ -891,9 +897,9 @@ h4 {
   }
 
   .overlay nav {
-    height: 80%;
+    height: 70%;
     top: 50%;
-    font-size: 66px;
+    font-size: 100px;
   }
 
   .menu {
