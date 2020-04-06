@@ -698,6 +698,11 @@ h7 {
   margin-bottom: -30px;
 }
 
+.menudrop {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
 /* footer */
 .footer h1 {
   font-size: 30px;
